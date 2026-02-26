@@ -96,7 +96,8 @@ function drawCover(ctx, img, x, y, w, h) {
 
 const CHARACTER_FACE_CONFIG = {
   migu: { cx: 41, cy: 40, size: 62, rot: -16, scaleX: 1.9, scaleY: 1.26 },
-  teddy: { cx: 46.5, cy: 32, size: 80, scaleX: 1.35, scaleY: 1.12 },
+  // Teddy needs wider fill; push left and enlarge to eliminate left-side gap.
+  teddy: { cx: 38.5, cy: 33.2, size: 98, scaleX: 1.8, scaleY: 1.35 },
   pipper: { cx: 50, cy: 22.5, size: 78, scaleX: 1.32, scaleY: 1.12 },
   tasha: { cx: 46.5, cy: 32, size: 80, scaleX: 1.35, scaleY: 1.12 },
   default: { cx: 50, cy: 22, size: 32 }
